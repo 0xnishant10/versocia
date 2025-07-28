@@ -18,8 +18,8 @@ const Navbar = () => {
         <div className="icon">
           <a href="#hero">
             <img
-              className="w-10 hover:scale-110 transition-transform duration-300"
-              src="./white-icon.png"
+              className="w-40 hover:scale-110 transition-transform duration-300"
+              src="./black.png"
               alt="Logo"
             />
           </a>
