@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+.questrial-regular {
+  font-family: "Questrial", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
