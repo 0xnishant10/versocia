@@ -1,16 +1,16 @@
 import React from 'react'
 import Navbar from './components/Navbar'
-import Hero from './components/hero';
 
-const App = () => {
+import Hero from './components/hero';
+import Problem from './components/Problem';
+
+export default function App() {
+
   return (
     <>
-      <div className="container mx-auto max-w-full w-full">
-        <Navbar />
-        <Hero />
-      </div>
+      <Navbar />
+      <Hero />
+      <Problem />
     </>
   );
 }
-
-export default App
