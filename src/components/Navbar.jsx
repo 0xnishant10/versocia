@@ -16,7 +16,7 @@ const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-      <nav className="sticky top-0 z-50 bg-opacity-90 backdrop-blur-md">
+      <nav className="sticky  top-0 z-50 bg-opacity-10 backdrop-blur-md">
         <div className="navbar flex items-center justify-between p-2 px-4 md:px-10">
           {/* Logo */}
           <div className="icon">
@@ -30,7 +30,7 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Tags */}
-          <div className="hidden md:flex gap-6 text-black questrial-regular text-lg tracking-wide">
+          <div className="hidden lg:flex gap-6 text-black questrial-regular text-lg tracking-wide">
             {tags.map((tag, index) => (
               <motion.a
                 key={index}
@@ -47,7 +47,7 @@ const Navbar = () => {
           </div>
 
           {/* Mobile Hamburger Icon */}
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
               className="text-black bg-opacity-90 backdrop-blur-md focus:outline-none"

@@ -1,8 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import { Dialog, DialogPanel } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import FadeInUp from "./FadeInUp";
 
 const Hero = () => {
@@ -25,7 +23,7 @@ const Hero = () => {
             />
           </div>
           <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
-            <div className="sm:mb-8 sm:flex sm:justify-center">
+            <div className="hidden sm:mb-8 sm:flex sm:justify-center">
               <div className="relative rounded-full questrial-regular px-3 py-1 text-md/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                 Real estate pros: We built this for you.{" "}
                 <a href="#" className="font-semibold text-indigo-600">
@@ -55,7 +53,7 @@ const Hero = () => {
                 </a>
                 <a
                   href="#"
-                  className="text-sm/6 questrial-regular font-semibold text-gray-900"
+                  className="text-sm/6 hover:scale-[1.02] transition-all duration-300 ease-in-out questrial-regular font-semibold text-gray-900"
                 >
                   See the System <span aria-hidden="true">→</span>
                 </a>
