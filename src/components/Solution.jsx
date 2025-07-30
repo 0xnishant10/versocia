@@ -4,26 +4,29 @@ import FadeInUp from "./FadeInUp";
 const Solution = () => {
   return (
     <FadeInUp>
-      <div id="solution" className="relative bg-white py-24 sm:py-32">
+      <div id="solution" className="relative  py-24 sm:py-32">
         {/* Soft Gradient Background */}
         <div
           aria-hidden="true"
-          className="absolute inset-0 -z-10 overflow-hidden"
+          className="absolute inset-x-0 -top-3 -z-10 transform-gpu overflow-hidden px-36 blur-3xl"
         >
           <div
-            className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[90rem] h-[56rem] bg-gradient-to-tr from-[#60d6dd] to-[#2115c3] opacity-10 blur-3xl"
             style={{
               clipPath:
                 "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
             }}
+            className="mx-auto aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-[#60d6dd] to-[#2115c3] opacity-30"
           />
         </div>
 
         <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
-          <h2 className="text-center text-base font-semibold text-indigo-600">
-            Your lead machine, done-for-you
+          <h2 className="text-center text-xl questrial-regular font-semibold text-indigo-600">
+            Introducing S.N.A.C.K.
           </h2>
-          <p className="mx-auto mt-2 max-w-xl text-center text-6xl font-semibold tracking-tight text-balance text-gray-950 sm:text-7xl">
+          <h2 className="text-center text-xl questrial-regular font-semibold text-indigo-600">
+            (Systemized Nurture and Conversion Kit)
+          </h2>
+          <p className="mx-auto mt-2 max-w-xl questrial-regular text-center text-6xl font-semibold tracking-tight text-balance text-gray-950 sm:text-7xl">
             We built S.N.A.C.K. so you don’t starve for closings again
           </p>
 
@@ -33,10 +36,10 @@ const Solution = () => {
               <div className="absolute inset-px rounded-lg bg-white lg:rounded-l-4xl" />
               <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] lg:rounded-l-[calc(2rem+1px)]">
                 <div className="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
-                  <p className="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">
+                  <p className="mt-2 text-lg questrial-regular font-extrabold  tracking-tight text-gray-950 max-lg:text-center">
                     Smart Nurturing System
                   </p>
-                  <p className="mt-1 text-sm text-gray-600 max-lg:text-center">
+                  <p className="mt-1 text-sm questrial-regular text-gray-600 max-lg:text-center">
                     Automatically follows up with leads via WhatsApp using
                     intelligent, behavior-based logic — no more ghosted leads.
                   </p>
@@ -59,10 +62,10 @@ const Solution = () => {
               <div className="absolute inset-px rounded-lg bg-white max-lg:rounded-t-4xl" />
               <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] max-lg:rounded-t-[calc(2rem+1px)]">
                 <div className="px-8 pt-8 sm:px-10 sm:pt-10">
-                  <p className="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">
+                  <p className="mt-2 text-lg questrial-regular font-extrabold tracking-tight text-gray-950 max-lg:text-center">
                     Booked Appointments, Not Leads
                   </p>
-                  <p className="mt-1 text-sm text-gray-600 max-lg:text-center">
+                  <p className="mt-1 questrial-regular text-sm text-gray-600 max-lg:text-center">
                     We don’t stop at leads. Our agents only talk to people
                     who’ve scheduled a call — no chasing, no convincing.
                   </p>
@@ -83,10 +86,10 @@ const Solution = () => {
               <div className="absolute inset-px rounded-lg bg-white" />
               <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)]">
                 <div className="px-8 pt-8 sm:px-10 sm:pt-10">
-                  <p className="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">
+                  <p className="mt-2 text-lg questrial-regular font-extrabold tracking-tight text-gray-950 max-lg:text-center">
                     Retargeting Built In
                   </p>
-                  <p className="mt-1 text-sm text-gray-600 max-lg:text-center">
+                  <p className="mt-1 questrial-regular text-sm text-gray-600 max-lg:text-center">
                     Lost leads? We warm them up again with custom retargeting
                     ads — so you close more without paying for more leads.
                   </p>
@@ -107,10 +110,10 @@ const Solution = () => {
               <div className="absolute inset-px rounded-lg bg-white max-lg:rounded-b-4xl lg:rounded-r-4xl" />
               <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] max-lg:rounded-b-[calc(2rem+1px)] lg:rounded-r-[calc(2rem+1px)]">
                 <div className="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
-                  <p className="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">
+                  <p className="mt-2 text-lg questrial-regular font-extrabold tracking-tight text-gray-950 max-lg:text-center">
                     Visual Reporting, Every 2 Weeks
                   </p>
-                  <p className="mt-1 text-sm text-gray-600 max-lg:text-center">
+                  <p className="mt-1 questrial-regular text-sm text-gray-600 max-lg:text-center">
                     No guesswork. You’ll receive clear, automated visual reports
                     of your leads, follow-ups, and conversions.
                   </p>

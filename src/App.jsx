@@ -4,6 +4,7 @@ import Hero from './components/hero';
 import Problem from './components/Problem';
 import Solution from './components/Solution';
 import Testimonial from './components/Testimonial';
+import Comparison from './components/Comparison';
 
 export default function App() {
 
@@ -14,6 +15,7 @@ export default function App() {
       <Problem />
       <Solution />
       <Testimonial />
+      <Comparison />
     </>
   );
 }

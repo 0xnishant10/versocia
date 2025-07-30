@@ -13,12 +13,12 @@ const Testimonial = () => {
           <div className="lg:col-span-5 lg:col-start-1">
             <div className="mb-8">
               <h2 className="mb-2  text-3xl text-gray-800 font-bold lg:text-4xl">
-                It's all about speed
+                It's all about Saving Your Precious Time
               </h2>
-              <p className="text-gray-600 ">
-                We provide you with a test account that can be set up in
-                seconds. Our main focus is getting responses to you as soon as
-                we can.
+              <p className="text-gray-600 questrial-regular">
+                We don’t generate leads — we bring in booked meetings, so you
+                don’t waste time chasing or following up. Just show up and
+                close.
               </p>
             </div>
 
@@ -40,8 +40,9 @@ const Testimonial = () => {
 
               <div className="relative z-10">
                 <p className="text-xl italic text-gray-800 ">
-                  Amazing people to work with. Very fast and professional
-                  partner.
+                  I’ve worked with dozens of marketing partners before — but
+                  nothing came close to this. In just 13 days, I had 5 meetings
+                  booked and not a single no-show. They know what they’re doing.
                 </p>
               </div>
 
@@ -55,11 +56,11 @@ const Testimonial = () => {
                     />
                   </div>
                   <div className="grow">
-                    <div className="font-semibold text-gray-800 ">
-                      Josh Grazioso
+                    <div className="font-semibold  text-gray-800 ">
+                      Mohd Rauf
                     </div>
-                    <div className="text-xs text-gray-500 ">
-                      Director Payments & Risk | Airbnb
+                    <div className="text-xs questrial-regular text-gray-500 ">
+                      Senior Realtor | KG Construction and Developers
                     </div>
                   </div>
                 </div>
@@ -71,20 +72,20 @@ const Testimonial = () => {
             <div className="space-y-6 sm:space-y-8">
               <ul className="grid grid-cols-2 divide-y divide-y-2 divide-x divide-x-2 divide-gray-200 overflow-hidden ">
                 <li className="flex flex-col -m-0.5 p-4 sm:p-8">
-                  <div className="flex items-end gap-x-2 text-3xl sm:text-5xl font-bold text-gray-800 mb-2 ">
+                  <div className="flex  items-end gap-x-2 text-3xl sm:text-5xl font-bold text-gray-800 mb-2 ">
                     <DecryptedText
-                      text="45k+"
+                      text="5"
                       speed={100}
                       maxIterations={30}
-                      characters="ABCD1234!?"
+                      characters="0123456789"
                       className="revealed"
                       animateOn="view"
                       parentClassName="all-letters"
                       encryptedClassName="encrypted"
                     />
                   </div>
-                  <p className="text-sm sm:text-base text-gray-600 ">
-                    users - from new startups to public companies
+                  <p className="text-sm questrial-regular sm:text-base text-gray-600 ">
+                    Booked meetings in 13 days (0 no-shows)
                   </p>
                 </li>
 
@@ -106,25 +107,25 @@ const Testimonial = () => {
                       <path d="M12 19V5" />
                     </svg>
                     <DecryptedText
-                      text="23%"
+                      text="63%"
                       speed={100}
                       maxIterations={30}
-                      characters="ABCD1234!?"
+                      characters="1234567890!%"
                       className="revealed"
                       animateOn="view"
                       parentClassName="all-letters"
                       encryptedClassName="encrypted"
                     />
                   </div>
-                  <p className="text-sm sm:text-base text-gray-600 ">
-                    increase in traffic on webpages with Looms
+                  <p className="text-sm questrial-regular sm:text-base text-gray-600 ">
+                    Leads converted into booked calls
                   </p>
                 </li>
 
                 <li className="flex flex-col -m-0.5 p-4 sm:p-8">
                   <div className="flex items-end gap-x-2 text-3xl sm:text-5xl font-bold text-gray-800 mb-2 ">
                     <svg
-                      className="shrink-0 size-5 text-blue-600 "
+                      className="shrink-0 size-5 text-blue-600 rotate-180"
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
                       height="24"
@@ -139,36 +140,36 @@ const Testimonial = () => {
                       <path d="M12 19V5" />
                     </svg>
                     <DecryptedText
-                      text="9.3%"
+                      text="$7"
                       speed={100}
                       maxIterations={30}
-                      characters="ABCD1234!?"
+                      characters="1234567890$"
                       className="revealed"
                       animateOn="view"
                       parentClassName="all-letters"
                       encryptedClassName="encrypted"
                     />
                   </div>
-                  <p className="text-sm sm:text-base text-gray-600 ">
-                    boost in reply rates across sales outreach
+                  <p className="text-sm questrial-regular sm:text-base text-gray-600 ">
+                    Average cost-per-lead
                   </p>
                 </li>
 
                 <li className="flex flex-col -m-0.5 p-4 sm:p-8">
                   <div className="flex items-end gap-x-2 text-3xl sm:text-5xl font-bold text-gray-800 mb-2 ">
                     <DecryptedText
-                      text="2x"
+                      text="4 Days"
                       speed={100}
                       maxIterations={30}
-                      characters="ABCD1234!?"
+                      characters="ABCD1234"
                       className="revealed"
                       animateOn="view"
                       parentClassName="all-letters"
                       encryptedClassName="encrypted"
                     />
                   </div>
-                  <p className="text-sm sm:text-base text-gray-600 ">
-                    faster than previous Preline versions
+                  <p className="text-sm sm:text-base questrial-regular text-gray-600 ">
+                    Time taken to generate 37 leads
                   </p>
                 </li>
               </ul>

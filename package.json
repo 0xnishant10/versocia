@@ -13,7 +13,9 @@
     "@headlessui/react": "^2.2.6",
     "@heroicons/react": "^2.2.0",
     "@tailwindcss/vite": "^4.1.11",
+    "classnames": "^2.5.1",
     "framer-motion": "^12.23.10",
+    "gsap": "^3.13.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-intersection-observer": "^9.16.0"

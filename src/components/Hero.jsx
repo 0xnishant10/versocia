@@ -3,6 +3,7 @@
 import { useState } from "react";
 import FadeInUp from "./FadeInUp";
 
+
 const Hero = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
