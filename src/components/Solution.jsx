@@ -4,11 +4,11 @@ import FadeInUp from "./FadeInUp";
 const Solution = () => {
   return (
     <FadeInUp>
-      <div id="solution" className="relative  py-24 sm:py-32">
+      <div id="solution" className="relative py-24 sm:py-32">
         {/* Soft Gradient Background */}
         <div
           aria-hidden="true"
-          className="absolute inset-x-0 -top-3 -z-10 transform-gpu overflow-hidden px-36 blur-3xl"
+          className="absolute inset-x-0 top-1 -z-10 transform-gpu overflow-hidden px-36 blur-3xl"
         >
           <div
             style={{
@@ -30,8 +30,8 @@ const Solution = () => {
             We built S.N.A.C.K. so you don’t starve for closings again
           </p>
 
+          {/* Card 1 */}
           <div className="mt-10 grid gap-4 sm:mt-16 lg:grid-cols-3 lg:grid-rows-2">
-            {/* Card 1 */}
             <div className="relative hover:-translate-y-1 hover:scale-[1.02] transition-all duration-300 ease-in-out hover:shadow-xl rounded-lg lg:rounded-l-4xl lg:row-span-2">
               <div className="absolute inset-px rounded-lg bg-white lg:rounded-l-4xl" />
               <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] lg:rounded-l-[calc(2rem+1px)]">
@@ -44,12 +44,12 @@ const Solution = () => {
                     intelligent, behavior-based logic — no more ghosted leads.
                   </p>
                 </div>
-                <div className="relative min-h-120 w-full grow max-lg:mx-auto max-lg:max-w-sm">
-                  <div className="absolute top-10 right-0 bottom-0 left-10 overflow-hidden rounded-tl-xl ">
+                <div className="relative  w-full grow max-lg:mx-auto max-lg:max-w-sm">
+                  <div className="relative  top-10 shadow-2xl outline outline-white/10 right-0 bottom-0 left-10 overflow-hidden rounded-tl-xl ">
                     <img
                       src="./nurturing.png"
                       alt=""
-                      className="absolute  size-full object-cover "
+                      className="w-full h-auto object-cover "
                     />
                   </div>
                 </div>
@@ -118,11 +118,11 @@ const Solution = () => {
                     of your leads, follow-ups, and conversions.
                   </p>
                 </div>
-                <div className="relative min-h-120 w-full top-10 left-10 grow overflow-hidden rounded-tl-xl bg-gray-200 shadow-2xl outline outline-white/10 h-48 sm:h-auto">
+                <div className="relative w-full top-10 left-10 grow overflow-hidden rounded-tl-xl ">
                   <img
                     src="./phone.png"
                     alt="Biweekly Reports"
-                    className="w-full h-full mt-3 scale-105 object-cover object-top"
+                    className="w-full h-auto mt-3 scale-110 object-cover object-top"
                   />
                 </div>
               </div>

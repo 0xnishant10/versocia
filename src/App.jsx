@@ -5,6 +5,9 @@ import Problem from './components/Problem';
 import Solution from './components/Solution';
 import Testimonial from './components/Testimonial';
 import Comparison from './components/Comparison';
+import FAQ from './components/FAQ';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 export default function App() {
 
@@ -16,6 +19,9 @@ export default function App() {
       <Solution />
       <Testimonial />
       <Comparison />
+      <FAQ />
+      <Contact />
+      <Footer />
     </>
   );
 }
