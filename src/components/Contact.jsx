@@ -37,8 +37,11 @@ const Contact = () => {
             <h2 className="text-xl/7 questrial-regular font-semibold text-indigo-600">
               Let's Talk
             </h2>
-            <h2 className="text-3xl font-bold ">Book Your Intro Call</h2>
-            <p className="text-gray-600 questrial-regular">
+            <h2 className="text-3xl font-bold ">Book a free demo today</h2>
+            <h className="text-xl font-bold questrial-regular">
+              and see how SNACK can change your business.
+            </h>
+            <p className="text-gray-600 mt-6 questrial-regular">
               Choose a time that works for you — no back and forth needed.
             </p>
           </div>
@@ -53,7 +56,7 @@ const Contact = () => {
         {/* Alternative Contact Section */}
         <section className="bg-white dark:bg-black">
           <div className="container px-6 py-12 mx-auto">
-            <div className="text-center">
+            <div id="customContact" className="text-center">
               <p className="font-medium questrial-regular text-indigo-600 dark:text-indigo-400">
                 Prefer something else?
               </p>
@@ -63,6 +66,14 @@ const Contact = () => {
               <p className="mt-3 questrial-regular text-gray-500 dark:text-gray-400">
                 Got questions before booking? Drop us a line anytime.
               </p>
+              <a href="#tally-open=31o16l&tally-overlay=1&tally-emoji-text=👋&tally-emoji-animation=wave&tally-form-events-forwarding=1">
+                <button
+                  type="button"
+                  className="py-3 mt-5 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-indigo-400 text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-none focus:bg-gray-50 questrial-regular"
+                >
+                  Contact us
+                </button>
+              </a>
             </div>
 
             <div className="grid grid-cols-1 gap-12 mt-10 md:grid-cols-2 lg:grid-cols-2">

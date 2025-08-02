@@ -132,7 +132,7 @@ const Solution = () => {
         </div>
         <div className="mt-10 flex items-center justify-center gap-x-6">
           <a
-            href="#"
+            href="/snack"
             className="text-sm/6 hover:scale-[1.5] transition-all duration-300 ease-in-out questrial-regular font-semibold text-gray-900"
           >
             See the System <span aria-hidden="true">→</span>

@@ -25,7 +25,11 @@ const Hero = () => {
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full questrial-regular px-3 py-1 text-md/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
               Real estate pros: We built this for you.{" "}
-              <a href="/snack" target="_blank" className="font-semibold text-indigo-600">
+              <a
+                href="/snack"
+                target="_blank"
+                className="font-semibold text-indigo-600 hover:text-indigo-400"
+              >
                 <span
                   aria-hidden="true"
                   className="absolute questrial-regular inset-0"
@@ -45,14 +49,14 @@ const Hero = () => {
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
-                href="#"
-                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm questrial-regular font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                href="#contact"
+                className="rounded-md cursor-pointer bg-indigo-600 px-3.5 py-2.5 text-sm questrial-regular font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Automate My Leads
               </a>
               <a
-                href="#"
-                className="text-sm/6 hover:scale-[1.02] transition-all duration-300 ease-in-out questrial-regular font-semibold text-gray-900"
+                href="/snack"
+                className="text-sm/6 hover:scale-[1.2] transition-all duration-300 ease-in-out questrial-regular font-semibold text-gray-900 cursor-pointer"
               >
                 See the System <span aria-hidden="true">→</span>
               </a>

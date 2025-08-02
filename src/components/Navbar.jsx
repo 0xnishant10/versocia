@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 
+
 const tags = [
   { label: "know SNACK", href: "/snack" },
   { label: "Sick of Chasing?", href: "#problem" },
@@ -17,7 +18,7 @@ const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 z-50 bg-opacity-10 backdrop-blur-md">
+    <nav className="fixed top-0 left-0 w-full z-50 bg-white bg-opacity-10 backdrop-blur-md">
       <div className="navbar flex items-center justify-between p-2 px-4 md:px-10">
         {/* Logo */}
         <div className="icon">

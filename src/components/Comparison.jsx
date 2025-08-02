@@ -6,7 +6,7 @@ const tiers = [
   {
     name: "SNACK",
     id: "tier-SNACK",
-    href: "#",
+    href: "#contact",
     priceMonthly: "$697",
     about: "One-time Setup",
     setupFee: "$1497",
@@ -24,12 +24,12 @@ const tiers = [
   {
     name: "SNACK+",
     id: "tier-SNACK+",
-    href: "#",
+    href: "#contact",
     priceMonthly: "$997",
     about: "One-time Setup (includes 1st month ad spend)",
     setupFee: "$2997",
     description:
-      "Leads are useless without meetings — we guarantee 10 booked calls in 30 days, or we pay for your ads.",
+      "Leads are useless without meetings — we guarantee 7 booked calls in 30 days, or we pay for your ads.",
     whoFor:
       "Agents who want meetings, not just leads — while we handle everything behind the scenes.",
     features: [
@@ -38,7 +38,7 @@ const tiers = [
       "Trigger-based smart follow-ups",
       "Advanced retargeting campaigns",
       "Bi-weekly performance reporting",
-      "10 Booked Calls Guarantee (in 30 days)",
+      "7 Booked Calls Guarantee (in 30 days)",
     ],
     featured: true,
   },
@@ -99,7 +99,7 @@ const comparisonData = [
         name: "Booked Call Guarantee",
         plans: {
           SNACK: false,
-          "SNACK+": "10 Calls in 30 Days — or We Pay for Ads",
+          "SNACK+": "7 Calls in 30 Days — or We Pay for Ads",
         },
       },
     ],
@@ -127,13 +127,12 @@ const comparisonData = [
           SNACK:
             "Agents who don’t want to waste time and want pre-qualified leads.",
           "SNACK+":
-            "Agents who want booked meetings — with a 10-meetings guarantee.",
+            "Agents who want booked meetings — with a 7-meetings guarantee.",
         },
       },
     ],
   },
 ];
-
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -204,25 +203,8 @@ export default function Comparison() {
               >
                 {tier.name}
               </h3>
-              <p className="mt-4 flex items-baseline gap-x-2">
-                <span
-                  className={classNames(
-                    tier.featured ? "text-white" : "text-gray-900",
-                    "text-5xl font-semibold questrial-regular tracking-tight"
-                  )}
-                >
-                  {tier.setupFee}
-                </span>
-              </p>
-              <p
-                className={classNames(
-                  tier.featured ? "text-gray-400" : "text-gray-500",
-                  "text-base questrial-regular py-2"
-                )}
-              >
-                {tier.about}
-              </p>
-              <p className=" flex items-baseline gap-x-2">
+
+              <p className="mt-2 flex items-baseline gap-x-2">
                 <span
                   className={classNames(
                     tier.featured ? "text-white" : "text-gray-900",
@@ -239,6 +221,15 @@ export default function Comparison() {
                 >
                   /mo + ad spend.
                 </span>
+              </p>
+
+              <p
+                className={classNames(
+                  tier.featured ? "text-indigo-400" : "text-indigo-500",
+                  "text-base questrial-regular py-2"
+                )}
+              >
+                {tier.setupFee} - {tier.about}
               </p>
               <p
                 className={classNames(
@@ -421,7 +412,7 @@ export default function Comparison() {
               {/* Button spans full width on mobile, centered */}
               <div className="col-span-1 lg:col-span-1 flex justify-center lg:justify-start">
                 <a
-                  href="/"
+                  href="#contact"
                   className={classNames(
                     "bg-indigo-500 text-white hover:bg-indigo-400 focus-visible:outline-indigo-500",
                     "w-full max-w-xs py-3 px-4 inline-flex justify-center items-center gap-x-2",
@@ -440,15 +431,16 @@ export default function Comparison() {
           <p className="text-sm questrial-regular text-gray-500">
             Need a custom plan?
           </p>
-          <button
-            type="button"
-            className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-none focus:bg-gray-50 questrial-regular"
-          >
-            Contact us
-          </button>
+          <a href="#tally-open=31o16l&tally-overlay=1&tally-emoji-text=👋&tally-emoji-animation=wave&tally-form-events-forwarding=1">
+            <button
+              type="button"
+              className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-none focus:bg-gray-50 questrial-regular"
+            >
+              Contact us
+            </button>
+          </a>
         </div>
       </div>
     </FadeInUp>
   );
 }
-
