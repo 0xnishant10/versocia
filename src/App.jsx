@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './components/Navbar'
-import Hero from './components/hero';
+import Hero from './components/Hero';
 import Problem from './components/Problem';
 import Solution from './components/Solution';
 import Testimonial from './components/Testimonial';
