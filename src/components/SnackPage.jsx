@@ -323,7 +323,7 @@ const SnackPage = () => {
 
                   <p className="mt-1 questrial-regular text-sm text-gray-600">
                     You’ll start seeing leads or booked calls. If not, our
-                    guarantee kicks in — we keep working for free until you do.
+                    guarantee kicks in — we keep working for free until you do (only with SNACK+).
                   </p>
                 </div>
                 {/* End Right Content */}
